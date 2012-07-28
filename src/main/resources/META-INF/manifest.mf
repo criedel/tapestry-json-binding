@@ -1,0 +1,2 @@
+Implementation-Version: 5.3.5-SNAPSHOT
+Tapestry-Module-Classes: org.apache.tapestry5.bindings.services.JSONBindingModule

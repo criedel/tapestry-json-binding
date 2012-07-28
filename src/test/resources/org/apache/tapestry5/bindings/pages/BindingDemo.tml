@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+
+<body>
+
+    <div>
+        <h1>All users:</h1>
+        <t:loop t:source="users" t:value="user">
+            <span>${json:user.name}</span>
+        </t:loop>
+    </div>
+
+    <div>
+        <h1>The first two subscribers:</h1>
+        <span>${json:subscribers[0].name}</span>
+        <span>${json:subscribers[1].name}</span>
+        <h1>JSON properties are case sensitive!</h1>
+        <span>this is empty:(${json:subscribers[1]?.NAME})</span>
+    </div>
+
+</body>
+
+</html>
