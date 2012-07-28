@@ -60,6 +60,11 @@ public class JSONBinding extends AbstractBinding {
         boolean optional;
         for (int i = 1; i < expressions.length; i++) {
 
+            if (result == null) {
+
+                break;
+            }
+
             optional = expressionToken.isNextOptional();
             expressionToken = new ExpressionToken(expressions[i]);
 
