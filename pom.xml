@@ -4,7 +4,7 @@
 
     <groupId>org.apache.tapestry5</groupId>
     <artifactId>tapestry-json-binding</artifactId>
-    <version>5.3.5-SNAPSHOT</version>
+    <version>5.3.7-SNAPSHOT</version>
 
     <name>Tapestry JSON Binding</name>
     <description>Provides a decent binding prefix implementation for JSON objects and arrays.</description>
@@ -71,6 +71,6 @@
     </build>
 
     <properties>
-        <tapestry-release-version>5.3.4</tapestry-release-version>
+        <tapestry-release-version>5.3.7</tapestry-release-version>
     </properties>
 </project>
